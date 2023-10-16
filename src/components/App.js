@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import './../styles/App.css';
 
 const App = () => {
-  const male = ['Shirts', 'Facial - grooming kits', 'Hair styling', 'Jeans', 'Shoes']
+  const male = ['Shirts', 'Facial-grooming kits', 'Hair styling', 'Jeans', 'Shoes']
   const female = ['Tops', 'Skirts', 'Makeup items', 'Jewellery', 'Sandals']
   const [data, setData] = useState(male)
   function changeData(e) {
